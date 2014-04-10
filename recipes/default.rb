@@ -1,6 +1,6 @@
 # Encoding: utf-8
 #
-# Cookbook Name:: magento-ce-varnish-18
+# Cookbook Name:: rax-mag-patch
 # Recipe:: default
 #
 # Copyright 2014, Rackspace

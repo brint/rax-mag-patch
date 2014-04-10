@@ -1,11 +1,11 @@
-magento-ce-varnish-18 CHANGELOG
-===============================
+rax-mag-patch CHANGELOG
+=======================
 
-This file is used to list changes made in each version of the magento-ce-varnish-18 cookbook.
+This file is used to list changes made in each version of the rax-mag-patch cookbook.
 
 0.1.0
 -----
-- Brint O'Hearn - Initial release of magento-ce-varnish-18
+- Brint O'Hearn - Initial release of rax-mag-patch
 
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.

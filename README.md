@@ -1,5 +1,5 @@
-magento-ce-varnish-18 Cookbook
-==============================
+rax-mag-patch Cookbook
+======================
 This cookbook is to install the work around for using the [Magento PageCache][]
 plugin where support for 1.8.0.0+ is not offered. More details regarding the
 issue can be found [here][].
@@ -20,7 +20,7 @@ Requirements
 
 Attributes
 ----------
-#### magento-ce-varnish-18::default
+#### rax-mag-patch::default
 Key|Type|Description|Default
 -|-|-|-
 `default['rax_mag_patch']['dest_dir']`|String|Path to Magento installation|`node['magento']['dir']`
@@ -28,17 +28,17 @@ Key|Type|Description|Default
 
 Usage
 -----
-#### magento-ce-varnish-18::default
+#### rax-mag-patch::default
 TODO: Write usage instructions for each cookbook.
 
 e.g.
-Just include `magento-ce-varnish-18` in your node's `run_list`:
+Just include `rax-mag-patch` in your node's `run_list`:
 
 ```json
 {
   "name":"my_node",
   "run_list": [
-    "recipe[magento-ce-varnish-18]"
+    "recipe[rax-mag-patch]"
   ]
 }
 ```
