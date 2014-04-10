@@ -1,0 +1,16 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: ubuntu-12.04
+
+suites:
+  - name: default
+    run_list: recipe[magento-ce-varnish-18::default]
+    attributes:
+      rax_mag_patch:
+        dest_dir: '/tmp'
